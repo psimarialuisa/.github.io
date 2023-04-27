@@ -8161,6 +8161,11 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-warning-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-gray {
+  --bs-bg-opacity: 1;
+  background-color: #eee !important;
+}
+
 .bg-danger {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
@@ -10995,6 +11000,10 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
+#portifolio .container{
+	background-color: #abb194;
+}
+
 #portfolio .portfolio-item {
   max-width: 16rem;
   margin-left: auto;
@@ -11271,7 +11280,7 @@ section#contact {
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #000;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
