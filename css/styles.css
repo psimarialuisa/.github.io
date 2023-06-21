@@ -247,8 +247,9 @@ sup {
 }
 
 a {
-  color:#fff;
+  color:#000;
   text-decoration: underline;
+  text-align: center
 }
 a:hover {
   color: #ggg;
@@ -2857,19 +2858,7 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: var(--verdePrincipal);
-  --bs-btn-border-color: var(--verdePrincipal);
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #9aa083;
-  --bs-btn-hover-border-color: #9aa083;
-  --bs-btn-focus-shadow-rgb: 255, 208, 38;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #899072;
-  --bs-btn-active-border-color: var(--verdePrincipal);
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: var(--verdePrincipal);
-  --bs-btn-disabled-border-color: var(--verdePrincipal);
+
 }
 
 .btn-secondary {
@@ -8163,7 +8152,7 @@ textarea.form-control-lg {
 
 .bg-purple {
   --bs-bg-opacity: 1;
-  background-color: #abb194 !important;
+  background-color: #F6F5EF !important;
 }
 
 .bg-danger {
@@ -10896,7 +10885,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #abb194;
+  background-color: ##F6F5EF;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10906,7 +10895,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #FFF;
+  color: #000;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -10918,7 +10907,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: #000;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10944,7 +10933,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #abb194;
+    background-color: #F6F5EF;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10966,7 +10955,7 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/header-bg.jpg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat ;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
@@ -11003,7 +10992,7 @@ header.masthead .masthead-heading {
   }
 }
 #portifolio .container{
-	background-color: #abb194;
+	background-color: #F6F5EF;
 }
 
 #portfolio .portfolio-item {
@@ -11021,7 +11010,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #abb19455;
+  background: #F6F5EF;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11278,13 +11267,13 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #abb194;
+  background-color: #F6F5EF;
 
   background-repeat: no-repeat;
   background-position: center;
 }
 section#contact .section-heading {
-  color: #fff;
+  color: #000;
 }
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
